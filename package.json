@@ -1,0 +1,26 @@
+{
+  "name": "near-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node ./node_modules/mocha/bin/mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assemblyscript": "^0.20.13",
+    "chai": "^4.3.6",
+    "chalk": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "inquirer": "^9.0.0",
+    "near-api-js": "^0.45.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
